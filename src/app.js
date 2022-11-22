@@ -3,9 +3,9 @@ import "bootstrap";
 import "./style.css";
 window.onload = function() {
   function domainNameGenerator() {
-    let pronoun = ["the", "our"];
-    let adj = ["great", "big"];
-    let noun = ["jogger", "racoon"];
+    let pronoun = ["the", "our", "your", "her"];
+    let adj = ["great", "big", "huge", "enormous"];
+    let noun = ["jogger", "racoon", "chef", "girl"];
     let extension = [".com", ".net", ".us", ".io"];
 
     let allDomains = [];
